@@ -1,16 +1,17 @@
 .link__return {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 30px;
     height: 30px;
-    top: 38px;
-    left: 38px;
+    top: 25px;
+    left: 25px;
+    z-index: 999;
+    text-decoration: none;
 
     i {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 30px;
-        width: 30px;
         color: black;
     }
 }

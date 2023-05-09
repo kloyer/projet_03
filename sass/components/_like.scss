@@ -1,0 +1,15 @@
+.fa-heart {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    //color: white;
+    //color: transparent;
+
+    &:hover {
+        background: linear-gradient(193.33deg, #9256dc -11.44%, #ff79da 123.93%);
+        background-clip: content-box;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}

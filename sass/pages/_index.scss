@@ -1,263 +1,563 @@
-.header__title {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: 4% 0%;
-    background-color: #FFFFFF;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 
-    img {
-        width: 40%;
-    }
-}   
-
-.header__location {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    background: #EAEAEA;
-
-    input {
-        border: 0;
-        background: none;
-        text-align: center;
-        font-weight: 600;
-        padding: 2% 0% 2% 0%;
-        width: 25%;
-    }
-}
-
-.section__explorer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-    background-color: #F6F6F6;
-    
-    h1 {
-        padding: 16px;
-        width: 65%;
-        text-align: center;
-    }
-
-    p {
-        padding: 16px;
-        width: 75%;
-        text-align: center;
-    }
-
-    .btn {
+    .header__title {
         display: flex;
-        background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-        border-radius: 100px;
-        padding: 13px;
-        text-decoration: auto;
-        color: #FFFFFF;
-        margin: 31px 0 70px 0;
-        width: 40%;
+        width: 100%;
         justify-content: center;
+        padding: 4% 0%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 
-        button {
-            font-size: 3vw;
-            background: none;
-            text-decoration: none;
-            border: 0;
-            color: white;
-            font-weight: 900;
-            text-align: center;
+        img {
+            width: 40%;
         }
-    }
-}
+    }   
 
-.section__fonctionnement {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-    background: #FFFFFF;
-    padding: 8% 0 8% 0;
-
-    h1 {
-        position: relative;
-        bottom: 15px;
-        width: 90%;
-        margin-top: 25px;
-    }
-
-    .card {
+    .header__location {
         display: flex;
         flex-direction: row;
-        width: 100%;
-        margin-top: 5%;
-        background: #F7F7F7;
-        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
-        border-radius: 20px;
+        justify-content: center;
         align-items: center;
-        justify-content: start;
-        width: 80%;
-        padding: 5%;
-        margin: 25px 0px 25px 0px;
-        position: relative;
+        padding: 0px;
+        background: #EAEAEA;
 
-        .card__pastille {
-            display: flex;
-            position: absolute;
-            background: #9356DC;
-            border-radius: 50%;
-            left: -10px;
-            width: 24px;
-            height: 24px;
+        input {
+            border: 0;
+            background: none;
             text-align: center;
-            justify-content: center;
-            align-items: center;
-
-            p {
-                font-weight: 500;
-                font-size: 14.1818px;
-                line-height: 17px;
-                color: white;
-            }
+            font-weight: 600;
+            padding: 2% 0% 2% 0%;
+            //width: 25%;
         }
+    }
 
-        i {
-            width: 15%;
-            display: flex;
-            justify-content: center;
-            color: #7E7E7E;
+    .section__explorer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        background-color: #F6F6F6;
+        
+        h1 {
+            padding: 16px;
+            width: 65%;
+            text-align: center;
         }
 
         p {
-            font-weight: 700;
+            padding: 16px;
             width: 75%;
-            justify-content: center;
             text-align: center;
         }
+
+        .btn {
+            display: flex;
+            background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+            border-radius: 100px;
+            padding: 13px;
+            text-decoration: auto;
+            color: #FFFFFF;
+            margin: 31px 0 70px 0;
+            justify-content: center;
+            color: #FFFFFF;
+
+            &:hover {
+                background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+                border-radius: 25px;
+            }
+
+            button {
+                background: none;
+                text-decoration: none;
+                border: 0;
+                color: white;
+                font-weight: 900;
+                text-align: center;
+            }
+        }
     }
-}
 
-.section__restaurants {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-    background-color: #F6F6F6;
-    padding: 8% 0 8% 0;
-
-    h1 {
-        position: relative;
-        bottom: 15px;
-        width: 90%;
-        margin-top: 25px;
-        font-weight: 700;
-        font-size: 24px;
-    }
-
-    p {
-        font-size: 17px;;
-    }
-
-    .card {
+    .section__fonctionnement {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
         width: 100%;
         background: #FFFFFF;
-        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-        border-radius: 15px;
-        width: 90%;
-        margin-bottom: 20px;
-        position: relative;
-        // margin: 100px 0px 50px 0px;
-        // height: 251px;
+        padding: 8% 0 8% 0;
 
-        a {
+        h1 {
             position: relative;
-            width: 100%;
-            height: 100%;
-            text-decoration: none;
-            
+            bottom: 15px;
+            width: 90%;
+            margin-top: 25px;
         }
-    
-        .card__image {
-            object-fit: cover;
-            width: 100%;
-            height: 231px; 
-            border-radius: 15px 15px 0px 0px;
-        }
-    
-        .card__text {
+
+        .card__container {
+            width: 90%;
             display: flex;
             flex-direction: column;
-            padding: 2%;
-            background-color: #FFFFFF;
-            position: relative;
 
-            h2 {
-                padding-top: 5px;
-            }
-
-            i {
-                position: absolute;
-                top: 20px;
-                right: 20px;
+            .card {
+                display: flex;
+                margin-top: 5%;
+                background: #F7F7F7;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+                border-radius: 20px;
+                align-items: center;
+                justify-content: start;
+                padding: 5%;
+                margin: 25px 0px 25px 0px;
+                position: relative;
+        
+                .card__pastille {
+                    display: flex;
+                    position: absolute;
+                    background: #9356DC;
+                    border-radius: 50%;
+                    left: -10px;
+                    width: 24px;
+                    height: 24px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+        
+                    p {
+                        font-weight: 500;
+                        font-size: 14.1818px;
+                        line-height: 17px;
+                        color: white;
+                    }
+                }
+        
+                i {
+                    width: 15%;
+                    display: flex;
+                    justify-content: center;
+                    color: #7E7E7E;
+                }
+        
+                p {
+                    font-weight: 700;
+                    width: 75%;
+                    justify-content: center;
+                    text-align: center;
+                }
             }
         }
-    
-        .card__new {
-            position: absolute;
-            right: 10px;
-            top: 10px;
-            font-size: 18px;
-            width: 80px;
-            height: 29px;
-            background: #99E2D0;
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-            border-radius: 2px;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-            color: #008766;
-        }
-    }
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 22px 25px;
-    gap: 16px;
-    background: #353535;
-    padding: 30px;
-
-
-    .footer__logo {
-        font-family: 'Shrikhand';
-        font-style: italic;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 26px;
-        color: #FFFFFF;
-        margin-bottom: 20px;
     }
 
-    .footer__links {
+    .section__restaurants {
         display: flex;
         flex-direction: column;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
-        color: #FFFFFF;
-        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        background-color: #F6F6F6;
+        padding: 25px 0 25px 0;
+    
+        a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+        }
+    
+        h1 {
+            position: relative;
+            bottom: 15px;
+            width: 90%;
+            margin-top: 25px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+    
+        p {
+            font-size: 17px;;
+        }
+    
+        .card__container {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            justify-content: space-between;
+    
+            .card {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+                border-radius: 15px;
+                width: 100%;
+                margin-bottom: 20px;
+                position: relative;
+            
+                .card__image {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 231px; 
+                    border-radius: 15px 15px 0px 0px;
+                }
+            
+                .card__text {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 2%;
+                    background-color: #FFFFFF;
+                    position: relative;
+        
+                    h2 {
+                        padding-top: 5px;
+                    }
+                }
+            
+                .card__new {
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                    font-size: 18px;
+                    width: 80px;
+                    height: 29px;
+                    background: #99E2D0;
+                    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+                    border-radius: 2px;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    color: #008766;
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 22px 25px;
+        gap: 16px;
+        background: #353535;
+        padding: 30px;
+
+
+        .footer__logo {
+            font-family: 'Shrikhand';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+
+        .footer__links {
+            display: flex;
+            flex-direction: column;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            gap: 10px;
+        }
+    }
+
+// / ================================================================ / 
+// / ================================================================ / 
+// / ================================================================ / 
+// / ================================================================ / 
+// / ================================================================ / 
+
+@media screen and (min-width: 1440px) {
+
+    .header__title {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding: 4% 0%;
+        background-color: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+
+        img {
+            width: 40%;
+        }
+    }   
+
+    .header__location {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        background: #EAEAEA;
+
+        input {
+            border: 0;
+            background: none;
+            text-align: center;
+            font-weight: 600;
+            padding: 2% 0% 2% 0%;
+            //width: 25%;
+        }
+    }
+
+    .section__explorer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        background-color: #F6F6F6;
+        
+        h1 {
+            padding: 16px;
+            width: 65%;
+            text-align: center;
+        }
+
+        p {
+            padding: 16px;
+            width: 75%;
+            text-align: center;
+        }
+
+        .btn {
+            display: flex;
+            background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+            border-radius: 100px;
+            padding: 13px;
+            text-decoration: auto;
+            color: #FFFFFF;
+            margin: 31px 0 70px 0;
+            justify-content: center;
+            color: #FFFFFF;
+
+            &:hover {
+                background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+                border-radius: 25px;
+            }
+
+            button {
+                background: none;
+                text-decoration: none;
+                border: 0;
+                color: white;
+                font-weight: 900;
+                text-align: center;
+            }
+        }
+    }
+
+    .section__fonctionnement {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        background: #FFFFFF;
+        padding: 8% 0 8% 0;
+
+        h1 {
+            position: relative;
+            bottom: 15px;
+            width: 90%;
+            margin-top: 25px;
+        }
+
+        .card__container {
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .card {
+                display: flex;
+                margin: 25px;
+                background: #F7F7F7;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+                border-radius: 20px;
+                align-items: center;
+                justify-content: start;
+                padding: 30px;
+                position: relative;
+                width: 100%;
+        
+                .card__pastille {
+                    display: flex;
+                    position: absolute;
+                    background: #9356DC;
+                    border-radius: 50%;
+                    left: -10px;
+                    width: 24px;
+                    height: 24px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+        
+                    p {
+                        font-weight: 500;
+                        font-size: 14.1818px;
+                        line-height: 17px;
+                        color: white;
+                    }
+                }
+        
+                i {
+                    width: 15%;
+                    display: flex;
+                    justify-content: center;
+                    color: #7E7E7E;
+                }
+        
+                p {
+                    font-weight: 700;
+                    width: 75%;
+                    justify-content: center;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .section__restaurants {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        background-color: #F6F6F6;
+        padding: 8% 0 8% 0;
+
+        a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+            width: 90%;
+        }
+
+        h1 {
+            position: relative;
+            bottom: 15px;
+            width: 90%;
+            margin-top: 25px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 17px;;
+        }
+
+        .card__container {
+            display: flex;
+            flex-direction: row;
+            width: 90%;
+            justify-content: space-between;
+
+            a {
+                margin: 25px;;
+            }
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+                border-radius: 15px;
+                width: 100%;
+                margin-bottom: 20px;
+                position: relative;
+            
+                .card__image {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 231px; 
+                    border-radius: 15px 15px 0px 0px;
+                }
+            
+                .card__text {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 2%;
+                    background-color: #FFFFFF;
+                    position: relative;
+        
+                    h2 {
+                        padding-top: 5px;
+                    }
+        
+                    i {
+                        position: absolute;
+                        top: 20px;
+                        right: 20px;
+                    }
+                }
+            
+                .card__new {
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                    font-size: 18px;
+                    width: 80px;
+                    height: 29px;
+                    background: #99E2D0;
+                    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+                    border-radius: 2px;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    color: #008766;
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 22px 25px;
+        gap: 16px;
+        background: #353535;
+        padding: 30px;
+
+
+        .footer__logo {
+            font-family: 'Shrikhand';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+
+        .footer__links {
+            display: flex;
+            flex-direction: column;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            gap: 10px;
+        }
     }
 }

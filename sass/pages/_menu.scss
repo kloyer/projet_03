@@ -21,6 +21,10 @@ img {
     flex-direction: column;
     padding: 0 25px 0 25px;
 
+    .menu_title {
+        position: relative;
+    }
+
     .categorie {
         margin-bottom: 60px;
     }
@@ -38,7 +42,7 @@ img {
             margin: 10px;
 
             p {
-                width: 200px;
+                width: 100%;
                 text-overflow: ellipsis;
                 /* position: relative; */
                 white-space: nowrap;
@@ -193,7 +197,7 @@ footer {
                 text-overflow: ellipsis;
 
                 p {
-                    width: 200px;
+                    width: 100%;
                     text-overflow: ellipsis;
                     /* position: relative; */
                     white-space: nowrap;

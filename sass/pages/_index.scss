@@ -66,16 +66,7 @@
             &:hover {
                 background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
                 box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
-                border-radius: 25px;
-            }
-
-            button {
-                background: none;
-                text-decoration: none;
-                border: 0;
-                color: white;
-                font-weight: 900;
-                text-align: center;
+                border-radius: 50px;
             }
         }
     }
@@ -125,13 +116,7 @@
                     text-align: center;
                     justify-content: center;
                     align-items: center;
-        
-                    p {
-                        font-weight: 500;
-                        font-size: 14.1818px;
-                        line-height: 17px;
-                        color: white;
-                    }
+                    color: white;
                 }
         
                 i {
@@ -233,6 +218,10 @@
                     display: flex;
                     color: #008766;
                 }
+            }
+
+            .like {
+                top: 0px;
             }
         }
     }
@@ -431,6 +420,10 @@
                     justify-content: center;
                     text-align: center;
                 }
+            }
+
+            .like {
+                top: 0px;
             }
         }
     }

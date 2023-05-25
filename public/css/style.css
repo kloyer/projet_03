@@ -62,7 +62,7 @@ body, header, main, footer {
 
 .like {
   position: absolute;
-  top: 20px;
+  top: 50px;
   right: 20px;
 }
 .like .fa-solid {
@@ -106,6 +106,7 @@ body, header, main, footer {
   border-radius: 50%;
   width: 120px;
   height: 120px;
+  margin-left: -76px;
   margin-left: -76px;
   animation: spin 2s linear 1.5;
 }
@@ -191,15 +192,7 @@ body, header, main, footer {
 .section__explorer .btn:hover {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
-  border-radius: 25px;
-}
-.section__explorer .btn button {
-  background: none;
-  text-decoration: none;
-  border: 0;
-  color: white;
-  font-weight: 900;
-  text-align: center;
+  border-radius: 50px;
 }
 
 .section__fonctionnement {
@@ -246,11 +239,6 @@ body, header, main, footer {
   text-align: center;
   justify-content: center;
   align-items: center;
-}
-.section__fonctionnement .card__container .card .card__pastille p {
-  font-weight: 500;
-  font-size: 14.1818px;
-  line-height: 17px;
   color: white;
 }
 .section__fonctionnement .card__container .card i {
@@ -341,6 +329,9 @@ body, header, main, footer {
   justify-content: center;
   display: flex;
   color: #008766;
+}
+.section__restaurants .card__container .like {
+  top: 0px;
 }
 
 footer {
@@ -512,6 +503,9 @@ footer .footer__links {
     justify-content: center;
     text-align: center;
   }
+  .section__fonctionnement .card__container .like {
+    top: 0px;
+  }
   .section__restaurants {
     display: flex;
     flex-direction: column;
@@ -653,6 +647,9 @@ img {
   flex-direction: column;
   padding: 0 25px 0 25px;
 }
+.section__menu .menu_title {
+  position: relative;
+}
 .section__menu .categorie {
   margin-bottom: 60px;
 }
@@ -669,7 +666,7 @@ img {
   margin: 10px;
 }
 .section__menu .card .card__text p {
-  width: 200px;
+  width: 100%;
   text-overflow: ellipsis;
   /* position: relative; */
   white-space: nowrap;
@@ -800,7 +797,7 @@ footer {
     text-overflow: ellipsis;
   }
   .section__menu .card .card__text p {
-    width: 200px;
+    width: 100%;
     text-overflow: ellipsis;
     /* position: relative; */
     white-space: nowrap;

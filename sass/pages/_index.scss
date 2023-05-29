@@ -197,6 +197,7 @@
                     padding: 2%;
                     background-color: #FFFFFF;
                     position: relative;
+                    border-radius: 0 0 20px 20px;
         
                     h2 {
                         padding-top: 5px;
@@ -221,7 +222,9 @@
             }
 
             .like {
-                top: 0px;
+                position: absolute;
+                top: 20px;
+                right: 20px;
             }
         }
     }
@@ -340,15 +343,6 @@
                 box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
                 border-radius: 25px;
             }
-
-            button {
-                background: none;
-                text-decoration: none;
-                border: 0;
-                color: white;
-                font-weight: 900;
-                text-align: center;
-            }
         }
     }
 
@@ -421,10 +415,6 @@
                     text-align: center;
                 }
             }
-
-            .like {
-                top: 0px;
-            }
         }
     }
 
@@ -494,6 +484,7 @@
                     padding: 2%;
                     background-color: #FFFFFF;
                     position: relative;
+                    border-radius: 0 0 20px 20px;
         
                     h2 {
                         padding-top: 5px;
@@ -521,6 +512,10 @@
                     display: flex;
                     color: #008766;
                 }
+            }
+
+            .like {
+                top: 0px;
             }
         }
     }

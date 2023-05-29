@@ -1,7 +1,4 @@
 .like {
-    position: absolute;
-    top: 50px;
-    right: 20px;
 
     .fa-solid {
         z-index: 999;
@@ -11,6 +8,10 @@
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
+    }
+
+    .far {
+        -webkit-text-stroke: 0.5px white;
     }
 
     &:hover {

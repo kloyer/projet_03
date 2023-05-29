@@ -1,5 +1,23 @@
+body {
+    //animation: fade-in .5s ease-in 1.5;
+    //opacity: 1;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 img {
     margin-bottom: 0px;
+}
+
+main {
+    background-color: #FFFFFF;
 }
 
 .header__title {
@@ -22,7 +40,10 @@ img {
     padding: 0 25px 0 25px;
 
     .menu_title {
-        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     .categorie {
@@ -40,6 +61,8 @@ img {
         .card__text {
             width: 90%;
             margin: 10px;
+            white-space: nowrap;
+            overflow: hidden;
 
             p {
                 width: 100%;
@@ -132,10 +155,6 @@ img {
     }
 }
 
-footer {
-    margin-top: 50px;
-}
-
 // =======================================================
 // =======================================================
 // =======================================================
@@ -166,10 +185,10 @@ footer {
     .section__menu {
         display: flex;
         border-radius: 5%;
-        background: white;
+        background: #EAEAEA;
         flex-direction: column;
         margin: 0 10% 5% 10%;
-        padding: 0 10% 0 10%;
+        padding: 0 15% 0 15%;
 
         .img {
             height: 555px;
@@ -292,9 +311,5 @@ footer {
             font-size: 15.0431px;
             line-height: 18px;
         }
-    }
-    
-    footer {
-        margin-top: 50px;
     }
 }
